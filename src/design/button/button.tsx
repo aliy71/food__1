@@ -20,7 +20,7 @@ const Button = ({ label, type }: Props) => {
     const choosedType = choiseType(type)
 
     return (
-        <button className={`w-full rounded-md ${choosedType}`}> {label} </button>
+        <button className={`w-full py-1  rounded-md ${choosedType}`}> {label} </button>
     )
 }
 
