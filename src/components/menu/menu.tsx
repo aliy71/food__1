@@ -11,7 +11,7 @@ const Menu = () => {
     <ul className='flex items-center gap-2 py-8'>
         {
             menuList.map(({label, icon}: IMenuList) => (
-                <li key={label} className='flex items-center gap-1 py-1 px-2 rounded-full bg-white-900 cursor-pointer' >
+                <li key={label} className='flex items-center gap-1 py-1 px-2 rounded-full bg-white-900 cursor-pointer hover:bg-yellow' >
                     <img src={icon} alt={`${label} images`} />
                     <span className='text-sm'>{label}</span>
                 </li>
