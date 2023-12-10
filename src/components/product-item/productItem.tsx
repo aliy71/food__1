@@ -1,4 +1,4 @@
-import { IProductData } from '@/assets/interface'
+import { IProductData } from '@/constants/interface'
 import { Button } from '@/design'
 import React from 'react'
 

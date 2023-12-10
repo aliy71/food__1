@@ -1,7 +1,7 @@
 import React from 'react'
 import ProductItem from '../product-item/productItem'
-import { BurgerData } from '@/assets'
-import { IProductData } from '@/assets/interface'
+import { BurgerData } from '@/constants'
+import { IProductData } from '@/constants/interface'
 
 type Props = {}
 

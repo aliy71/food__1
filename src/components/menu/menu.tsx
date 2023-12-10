@@ -1,4 +1,4 @@
-import { menuList } from '@/assets'
+import { menuList } from '@/constants'
 import React from 'react'
 
 interface IMenuList {

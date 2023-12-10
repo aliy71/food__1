@@ -1,4 +1,4 @@
-import { Article, Aside, Header, Menu } from "@/components"
+import { Article, Aside, Footer, Header, Menu } from "@/components"
 
 type Props = {}
 
@@ -19,6 +19,11 @@ const HomePage = (props: Props) => {
           </div>
         </div>
       </main>
+      <footer className="bg-white-900 py-4">
+        <div className="container">
+          <Footer />
+        </div>
+      </footer>
     </div>
   )
 }
