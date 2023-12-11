@@ -8,7 +8,7 @@ const HomePage = (props: Props) => {
       <header className="bg-orange-100 rounded-b-[55%]">
         <Header />
       </header>
-      <div className="container sticky top-0 z-100">
+      <div className="container">
         <Menu />
       </div>
       <main className="relative">
